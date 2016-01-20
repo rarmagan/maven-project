@@ -24,5 +24,5 @@ public class HelloMavenTest extends FunctionalTestCase {
       String contentType = event.getMessage().getOutboundProperty("Content-Type");
       assertEquals("application/json", contentType);
     }
-
+    
 }
